@@ -1,0 +1,32 @@
+.formHeader {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  font-weight: normal;
+  height: 60px;
+  padding: 10px;
+}
+
+.formHeader > svg {
+  margin-right: 10px;
+}
+
+.modalContentWrapper {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  justify-content: space-evenly;
+  left: 0;
+  margin: 0 auto;
+  padding: 20px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 300px;
+}
+
+.modalContent {
+  white-space: break-spaces;
+}
